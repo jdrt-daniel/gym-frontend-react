@@ -1,27 +1,44 @@
-# React + TypeScript + Vite
+<div align="center">
+<span>
+  <svg width="10%" height="10%" viewBox="-10.5 -9.45 21 18.9" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-sm me-0 w-10 h-10 text-link dark:text-link-dark flex origin-center transition-all ease-in-out"><circle cx="0" cy="0" r="2" fill="currentColor"></circle><g stroke="currentColor" stroke-width="1" fill="none"><ellipse rx="10" ry="4.5"></ellipse><ellipse rx="10" ry="4.5" transform="rotate(60)"></ellipse><ellipse rx="10" ry="4.5" transform="rotate(120)"></ellipse></g></svg>
+</span>
+<span>
+  <img alt="logo" src="https://primefaces.org/cdn/primereact/images/primereact-logo-dark.svg">
+</span>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React + React Prime
 
-Currently, two official plugins are available:
+Init de project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Copy `.env-template` and rename for `.env`
 
-## Expanding the ESLint configuration
+- Replace `.env` content by
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+   VITE_NEST_API=<your-principal-api>
+   #add more api routes
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Install dependencies
+
+```bash
+   npm install
+```
+
+- Run project
+
+```bash
+   npm run dev
+```
+
+- Build project
+
+```bash
+   npm run build
+```
+
+- Open browser with local route `http://localhost:5173`
+
+- Login route: `http://localhost:5173/#/login`
+- Home route: `http://localhost:5173/#/home`
