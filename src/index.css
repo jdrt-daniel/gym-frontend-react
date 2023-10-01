@@ -1,0 +1,141 @@
+.navbar-vertical.navbar-expand-lg .navbar-vertical-content .navbar-nav .nav .nav-link {
+    padding-left: 3em !important;
+    scroll-margin-top: 200px;
+}
+
+.navbar-vertical .navbar-vertical-content .navbar-nav .nav-link.active {
+    color: #000000 !important;
+    background-color: #f5f7fa !important;
+    font-weight: 700 !important;
+}
+
+.nav.collapse .nav-item {
+    margin: 2px 0px;
+}
+
+.p-component {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.p-sortable-column {
+    font-size: .9rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #585c6b;
+}
+
+.p-datatable .p-datatable-thead>tr>th {
+    padding: 1em 1em;
+    background: #ffff;
+    line-height: 1s;
+    color: #383838;
+    font-family: Nunito Sans;
+    font-weight: 800;
+    font-size: 1em;
+}
+
+.p-datatable .p-datatable-tbody>tr>td {
+    text-align: left;
+    border: 1px solid #dee2e6;
+    border-width: 0 0 1px 0;
+    padding: .8rem .9rem;
+    color: #000000;
+    font-family: Nunito Sans;
+    font-size: 1em;
+}
+
+.p-checkbox .p-checkbox-box {
+    border: 1px solid #9fa6bc;
+    background: #ffffff;
+    width: 16px;
+    height: 16px;
+    color: #495057;
+    border-radius: 4px;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.p-checkbox.p-component {
+    display: flex;
+    align-items: center;
+}
+
+.p-checkbox .p-checkbox-box .p-checkbox-icon.p-icon {
+    width: 10px;
+    height: 10px;
+}
+
+.p-datatable .p-datatable-tbody>tr.p-highlight {
+    background: #FFFF;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page {
+    background-color: transparent;
+    border: 0 none;
+    color: #333333;
+    min-width: 1.7rem;
+    height: 1.7rem;
+    margin: 0.143rem;
+    transition: box-shadow 0.2s;
+    border-radius: 20%;
+}
+
+.p-datatable.p-datatable-selectable .p-datatable-tbody>tr.p-selectable-row:not(.p-highlight):not(.p-datatable-emptymessage):hover {
+    background: #e9ecef18;
+    color: #495057;
+}
+
+.p-paginator .p-paginator-first,
+.p-paginator .p-paginator-prev,
+.p-paginator .p-paginator-next,
+.p-paginator .p-paginator-last {
+    background-color: transparent;
+    border: 0 none;
+    color: #777777;
+    min-width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.143rem;
+    transition: box-shadow 0.2s;
+    border-radius: 20%;
+}
+
+.p-datatable .p-sortable-column .p-sortable-column-icon.p-icon {
+    width: 1em;
+    height: .7em;
+    display: flex;
+    align-items: center;
+}
+
+.p-paginator {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+    background: #3874ff;
+    border-color: #eff6ff00;
+    color: #ffffff;
+}
+
+.p-selection-column {
+    padding: 0px 5px !important;
+}
+
+.p-selection-column .p-checkbox {
+    width: 19px;
+}
+
+.dropdown-menu {
+    padding: 0px 0px;
+}
+
+.p-dialog-footer {
+    text-align: center !important;
+}
+
+.p-inputtext {
+    font-size: .7rem;
+}
